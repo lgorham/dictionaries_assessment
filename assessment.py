@@ -169,6 +169,16 @@ def translate_to_pirate_talk(phrase):
     return translated_phrase.rstrip()
 
 
+    #alternative option:
+    # translated_phrase = []
+    # for word in words:
+    #     if word in english_priate_dict:
+    #         translated_phrase.append(english_priate_dict[word])
+    #     else:
+    #         translated_phrase.append(word)
+    # return (" ".join(translated_phrase))
+
+
 def kids_game(names):
     """Play a kids' word chain game.
 
